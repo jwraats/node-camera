@@ -12,10 +12,10 @@
             "conditions": [
                 ['OS=="linux"', {
                     'include_dirs': [
-                        '/usr/include'
+                        '/usr/local/include'
                         ],
                     'link_settings': {
-                        'library_dirs': ['/usr/share/lib']
+                        'library_dirs': ['/usr/local/lib']
                     },
                     'cflags!': ['-fno-exceptions'],
                     'cflags_cc!': ['-fno-rtti', '-fno-exceptions']
